@@ -42,6 +42,15 @@ The easiest setup using [Vagrant](https://www.vagrantup.com) is shown here.
 
 That's it!
 
+## Troubleshooting
+
+If you have trouble with Vagrant and getting the VirtualBox VM to start after running the commands in step 3 of installation, try these steps shown here.
+
+1. Open the VirutalBox application that you installed in step 1 of installation.
+2. This will open the VM VirtualBox Manager. Go to the EvaP instance, right click, stop -> power off, and then right click again and remove.
+3. Follow step 3 of installation and try the command line prompts again.
+
+
 ## Contributing
 
 We'd love to see contributions, feel free to fork! You should probably branch off `main`, the branch `release` is used for stable revisions.
